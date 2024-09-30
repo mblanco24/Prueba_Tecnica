@@ -1,7 +1,8 @@
 {
     "private": true,
+    "type": "module",
     "scripts": {
-        "dev": "axios.js",
+        "dev": "nodemon public/js/axios.js",
         "build": "vite build"
     },
     "devDependencies": {

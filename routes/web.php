@@ -24,3 +24,4 @@ Route::get('/registro', function () {
 Route::get('/admin', function () {
     return view('admin/admin');
 });
+
